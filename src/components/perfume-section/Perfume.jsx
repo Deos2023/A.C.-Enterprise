@@ -10,76 +10,76 @@ const PerfumeSection = () => {
   // Sample perfume data
   const perfumes = {
     women: [
-      { 
-        id: 1, 
-        name: 'Floral Elegance', 
-        price: 49.99, 
-        rating: 4.8, 
-        image: '../../../public/images/perfume1.jpeg',
+      {
+        id: 1,
+        name: 'Floral Elegance',
+        price: 49.99,
+        rating: 4.8,
+        image: '/images/perfume1.jpeg',
         description: 'A delicate blend of jasmine and rose with hints of vanilla',
         size: '50ml'
       },
-      { 
-        id: 2, 
-        name: 'Midnight Bloom', 
-        price: 59.99, 
-        rating: 4.9, 
-        image: '../../../public/images/perfume2.jpeg',
+      {
+        id: 2,
+        name: 'Midnight Bloom',
+        price: 59.99,
+        rating: 4.9,
+        image: '/images/perfume2.jpeg',
         description: 'Mysterious blend of night-blooming flowers and amber',
         size: '75ml'
       },
-      { 
-        id: 3, 
-        name: 'Sunset Kiss', 
-        price: 45.99, 
-        rating: 4.6, 
-        image: '../../../public/images/perfume3.jpeg',
+      {
+        id: 3,
+        name: 'Sunset Kiss',
+        price: 45.99,
+        rating: 4.6,
+        image: '/images/perfume3.jpeg',
         description: 'Warm citrus notes with a touch of honey and musk',
         size: '50ml'
       },
-      { 
-        id: 4, 
-        name: 'Velvet Petals', 
-        price: 65.99, 
-        rating: 4.7, 
+      {
+        id: 4,
+        name: 'Velvet Petals',
+        price: 65.99,
+        rating: 4.7,
         image: 'https://placehold.co/300x400/FADADD/000000?text=Women+Perfume+4',
         description: 'Luxurious blend of peony, orchid, and white musk',
         size: '100ml'
       },
     ],
     men: [
-      { 
-        id: 5, 
-        name: 'Wooden Mystique', 
-        price: 54.99, 
-        rating: 4.7, 
-        image: '../../../public/images/perfume1.jpeg',
+      {
+        id: 5,
+        name: 'Wooden Mystique',
+        price: 54.99,
+        rating: 4.7,
+        image: '/images/perfume1.jpeg',
         description: 'Rich blend of sandalwood, cedar, and bergamot',
         size: '75ml'
       },
-      { 
-        id: 6, 
-        name: 'Noir Essence', 
-        price: 62.99, 
-        rating: 4.9, 
-        image: '../../../public/images/perfume1.jpeg',
+      {
+        id: 6,
+        name: 'Noir Essence',
+        price: 62.99,
+        rating: 4.9,
+        image: '/images/perfume1.jpeg',
         description: 'Dark and mysterious with notes of leather and tobacco',
         size: '100ml'
       },
-      { 
-        id: 7, 
-        name: 'Fresh Aqua', 
-        price: 48.99, 
-        rating: 4.5, 
-        image: '../../../public/images/perfume3.jpg',
+      {
+        id: 7,
+        name: 'Fresh Aqua',
+        price: 48.99,
+        rating: 4.5,
+        image: '/images/perfume3.jpg',
         description: 'Crisp aquatic notes with citrus and marine accents',
         size: '50ml'
       },
-      { 
-        id: 8, 
-        name: 'Urban Legend', 
-        price: 69.99, 
-        rating: 4.8, 
+      {
+        id: 8,
+        name: 'Urban Legend',
+        price: 69.99,
+        rating: 4.8,
         image: 'https://placehold.co/300x400/2F4F4F/FFFFFF?text=Men+Perfume+4',
         description: 'Bold combination of spice, amber, and vetiver',
         size: '100ml'
@@ -97,10 +97,10 @@ const PerfumeSection = () => {
   };
 
   // Filter perfumes based on active category
-  const filteredPerfumes = activeCategory === 'all' 
-    ? [...perfumes.women, ...perfumes.men] 
-    : activeCategory === 'women' 
-      ? perfumes.women 
+  const filteredPerfumes = activeCategory === 'all'
+    ? [...perfumes.women, ...perfumes.men]
+    : activeCategory === 'women'
+      ? perfumes.women
       : perfumes.men;
 
   // Animation variants
@@ -130,7 +130,7 @@ const PerfumeSection = () => {
       {/* Hero Section */}
       <section className="py-16 px-4 bg-gradient-to-r from-blue-500 to-purple-600 text-white">
         <div className="max-w-6xl mx-auto text-center">
-          <motion.h1 
+          <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
@@ -138,7 +138,7 @@ const PerfumeSection = () => {
           >
             Luxury Fragrance Collection
           </motion.h1>
-          <motion.p 
+          <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
@@ -186,7 +186,7 @@ const PerfumeSection = () => {
               <Filter size={18} className="text-gray-600 mr-2" />
               <span className="text-gray-600 mr-2">Sort by:</span>
               <div className="relative">
-                <select 
+                <select
                   value={sortBy}
                   onChange={(e) => setSortBy(e.target.value)}
                   className="appearance-none bg-white border border-gray-300 rounded-lg py-2 px-4 pr-8 focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -224,16 +224,16 @@ const PerfumeSection = () => {
                   onClick={() => toggleFavorite(perfume.id)}
                   className="absolute top-3 right-3 z-10 bg-white/80 backdrop-blur-sm rounded-full p-2 hover:bg-white transition-colors"
                 >
-                  <Heart 
-                    size={20} 
-                    className={favorites.includes(perfume.id) ? "text-red-500 fill-red-500" : "text-gray-600"} 
+                  <Heart
+                    size={20}
+                    className={favorites.includes(perfume.id) ? "text-red-500 fill-red-500" : "text-gray-600"}
                   />
                 </button>
 
                 {/* Product Image */}
                 <div className="h-60 overflow-hidden relative">
-                  <img 
-                    src={perfume.image} 
+                  <img
+                    src={perfume.image}
                     alt={perfume.name}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
@@ -248,20 +248,20 @@ const PerfumeSection = () => {
                       {perfume.size}
                     </span>
                   </div>
-                  
+
                   <p className="text-sm text-gray-600 mb-3 line-clamp-2">{perfume.description}</p>
-                  
+
                   <div className="flex items-center mb-3">
                     {[...Array(5)].map((_, i) => (
-                      <Star 
-                        key={i} 
-                        size={16} 
-                        className={i < perfume.rating ? "text-amber-400 fill-amber-400" : "text-gray-300"} 
+                      <Star
+                        key={i}
+                        size={16}
+                        className={i < perfume.rating ? "text-amber-400 fill-amber-400" : "text-gray-300"}
                       />
                     ))}
                     <span className="text-sm text-gray-600 ml-2">{perfume.rating}</span>
                   </div>
-                  
+
                   <div className="flex justify-between items-center">
                     <span className="text-lg font-bold text-blue-600">${perfume.price}</span>
                     <button className="bg-blue-500 text-white p-2 rounded-full hover:bg-blue-600 transition-colors">
@@ -278,7 +278,7 @@ const PerfumeSection = () => {
       {/* Call to Action */}
       <section className="py-16 px-4 bg-gradient-to-r from-purple-500 to-blue-600 text-white">
         <div className="max-w-4xl mx-auto text-center">
-          <motion.h2 
+          <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
@@ -287,7 +287,7 @@ const PerfumeSection = () => {
           >
             Can't Find Your Signature Scent?
           </motion.h2>
-          <motion.p 
+          <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}

@@ -10,41 +10,41 @@ const HairAccessoriesSection = () => {
   // Sample hair accessories data
   const hairAccessories = {
     hairBands: [
-      { 
-        id: 1, 
-        name: 'Silk Scrunchies Set', 
-        price: 12.99, 
-        rating: 4.8, 
-        image: '../../../public/images/hairband.jpeg',
+      {
+        id: 1,
+        name: 'Silk Scrunchies Set',
+        price: 12.99,
+        rating: 4.8,
+        image: '/images/hairband.jpeg',
         description: 'Luxury silk scrunchies in assorted colors',
         colors: ['Pink', 'Blue', 'Black', 'White'],
         material: 'Silk'
       },
-      { 
-        id: 2, 
-        name: 'Pearl Hair Band', 
-        price: 24.99, 
-        rating: 4.9, 
-        image: '../../../public/images/hairband2.jpeg',
+      {
+        id: 2,
+        name: 'Pearl Hair Band',
+        price: 24.99,
+        rating: 4.9,
+        image: '/images/hairband2.jpeg',
         description: 'Elegant pearl-embellished hair band',
         colors: ['White', 'Ivory'],
         material: 'Plastic with pearls'
       },
-      { 
-        id: 3, 
-        name: 'Bohemian Headband', 
-        price: 18.99, 
-        rating: 4.6, 
+      {
+        id: 3,
+        name: 'Bohemian Headband',
+        price: 18.99,
+        rating: 4.6,
         image: 'https://placehold.co/300x400/F5F5DC/000000?text=Bohemian+Headband',
         description: 'Colorful boho-style fabric headband',
         colors: ['Multicolor'],
         material: 'Cotton'
       },
-      { 
-        id: 4, 
-        name: 'Velvet Hair Band', 
-        price: 15.99, 
-        rating: 4.7, 
+      {
+        id: 4,
+        name: 'Velvet Hair Band',
+        price: 15.99,
+        rating: 4.7,
         image: 'https://placehold.co/300x400/800020/FFFFFF?text=Velvet+Hair+Band',
         description: 'Luxurious velvet hair band for special occasions',
         colors: ['Burgundy', 'Navy', 'Black'],
@@ -52,41 +52,41 @@ const HairAccessoriesSection = () => {
       },
     ],
     hairClips: [
-      { 
-        id: 5, 
-        name: 'Gold Hair Claw Clip', 
-        price: 14.99, 
-        rating: 4.7, 
-        image: '../../../public/images/hairclip1.jpeg',
+      {
+        id: 5,
+        name: 'Gold Hair Claw Clip',
+        price: 14.99,
+        rating: 4.7,
+        image: '/images/hairclip1.jpeg',
         description: 'Elegant gold-finished large claw clip',
         colors: ['Gold', 'Rose Gold'],
         material: 'Metal with coating'
       },
-      { 
-        id: 6, 
-        name: 'Butterfly Hair Clips', 
-        price: 9.99, 
-        rating: 4.5, 
-        image: '../../../public/images/hairclip2.jpeg',
+      {
+        id: 6,
+        name: 'Butterfly Hair Clips',
+        price: 9.99,
+        rating: 4.5,
+        image: '/images/hairclip2.jpeg',
         description: 'Cute butterfly-shaped hair clips set',
         colors: ['Pink', 'Blue', 'Purple'],
         material: 'Plastic'
       },
-      { 
-        id: 7, 
-        name: 'Pearl Barrette Set', 
-        price: 16.99, 
-        rating: 4.8, 
+      {
+        id: 7,
+        name: 'Pearl Barrette Set',
+        price: 16.99,
+        rating: 4.8,
         image: 'https://placehold.co/300x400/FFFFFF/000000?text=Pearl+Barrettes',
         description: 'Set of elegant pearl-adorned hair barrettes',
         colors: ['White', 'Gold'],
         material: 'Metal with pearls'
       },
-      { 
-        id: 8, 
-        name: 'Tortoise Shell Clips', 
-        price: 22.99, 
-        rating: 4.9, 
+      {
+        id: 8,
+        name: 'Tortoise Shell Clips',
+        price: 22.99,
+        rating: 4.9,
         image: 'https://placehold.co/300x400/8B4513/FFFFFF?text=Tortoise+Clips',
         description: 'Premium tortoise shell design hair clips',
         colors: ['Tortoise'],
@@ -105,10 +105,10 @@ const HairAccessoriesSection = () => {
   };
 
   // Filter accessories based on active category
-  const filteredAccessories = activeCategory === 'all' 
-    ? [...hairAccessories.hairBands, ...hairAccessories.hairClips] 
-    : activeCategory === 'hairBands' 
-      ? hairAccessories.hairBands 
+  const filteredAccessories = activeCategory === 'all'
+    ? [...hairAccessories.hairBands, ...hairAccessories.hairClips]
+    : activeCategory === 'hairBands'
+      ? hairAccessories.hairBands
       : hairAccessories.hairClips;
 
   // Animation variants
@@ -138,7 +138,7 @@ const HairAccessoriesSection = () => {
       {/* Hero Section */}
       <section className="py-16 px-4 bg-gradient-to-r from-pink-400 to-purple-500 text-white">
         <div className="max-w-6xl mx-auto text-center">
-          <motion.h1 
+          <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
@@ -146,7 +146,7 @@ const HairAccessoriesSection = () => {
           >
             Hair Accessories Collection
           </motion.h1>
-          <motion.p 
+          <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
@@ -194,7 +194,7 @@ const HairAccessoriesSection = () => {
               <Filter size={18} className="text-gray-600 mr-2" />
               <span className="text-gray-600 mr-2">Sort by:</span>
               <div className="relative">
-                <select 
+                <select
                   value={sortBy}
                   onChange={(e) => setSortBy(e.target.value)}
                   className="appearance-none bg-white border border-gray-300 rounded-lg py-2 px-4 pr-8 focus:outline-none focus:ring-2 focus:ring-pink-500"
@@ -232,16 +232,16 @@ const HairAccessoriesSection = () => {
                   onClick={() => toggleFavorite(item.id)}
                   className="absolute top-3 right-3 z-10 bg-white/80 backdrop-blur-sm rounded-full p-2 hover:bg-white transition-colors"
                 >
-                  <Heart 
-                    size={20} 
-                    className={favorites.includes(item.id) ? "text-red-500 fill-red-500" : "text-gray-600"} 
+                  <Heart
+                    size={20}
+                    className={favorites.includes(item.id) ? "text-red-500 fill-red-500" : "text-gray-600"}
                   />
                 </button>
 
                 {/* Product Image */}
                 <div className="h-60 overflow-hidden relative">
-                  <img 
-                    src={item.image} 
+                  <img
+                    src={item.image}
                     alt={item.name}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
@@ -251,27 +251,27 @@ const HairAccessoriesSection = () => {
                 {/* Product Info */}
                 <div className="p-4">
                   <h3 className="font-semibold text-gray-800 mb-2">{item.name}</h3>
-                  
+
                   <p className="text-sm text-gray-600 mb-3 line-clamp-2">{item.description}</p>
-                  
+
                   <div className="flex items-center mb-3">
                     {[...Array(5)].map((_, i) => (
-                      <Star 
-                        key={i} 
-                        size={16} 
-                        className={i < item.rating ? "text-amber-400 fill-amber-400" : "text-gray-300"} 
+                      <Star
+                        key={i}
+                        size={16}
+                        className={i < item.rating ? "text-amber-400 fill-amber-400" : "text-gray-300"}
                       />
                     ))}
                     <span className="text-sm text-gray-600 ml-2">{item.rating}</span>
                   </div>
-                  
+
                   <div className="mb-3">
                     <p className="text-sm text-gray-600 mb-1">
                       <span className="font-medium">Material:</span> {item.material}
                     </p>
                     <div className="flex flex-wrap gap-1">
                       {item.colors.map((color, index) => (
-                        <span 
+                        <span
                           key={index}
                           className="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded"
                         >
@@ -280,7 +280,7 @@ const HairAccessoriesSection = () => {
                       ))}
                     </div>
                   </div>
-                  
+
                   <div className="flex justify-between items-center">
                     <span className="text-lg font-bold text-purple-600">${item.price}</span>
                     <button className="bg-purple-500 text-white p-2 rounded-full hover:bg-purple-600 transition-colors">
@@ -297,7 +297,7 @@ const HairAccessoriesSection = () => {
       {/* Call to Action */}
       <section className="py-16 px-4 bg-gradient-to-r from-pink-500 to-purple-600 text-white">
         <div className="max-w-4xl mx-auto text-center">
-          <motion.h2 
+          <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
@@ -306,7 +306,7 @@ const HairAccessoriesSection = () => {
           >
             Complete Your Hair Style
           </motion.h2>
-          <motion.p 
+          <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}

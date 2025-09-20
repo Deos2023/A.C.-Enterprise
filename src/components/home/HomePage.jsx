@@ -26,7 +26,7 @@ const Homepage = () => {
     {
       title: "Perfumes & Fragrances",
       subtitle: "Luxury fragrances for every occasion",
-      image: "../../../public/images/perfume3.jpg",
+      image: "/images/perfume3.jpg",
       cta: "View Perfumes",
 
     },
@@ -43,19 +43,19 @@ const Homepage = () => {
     {
       name: "Cosmetics",
       description: "Premium makeup products for all skin types",
-      image: "../../../public/images/makeup1.jpeg",
+      image: "/images/makeup1.jpeg",
       icon: <Sparkles className="text-pink-500" size={32} />
     },
     {
       name: "Perfumes",
       description: "Luxury fragrances for men and women",
-      image: "../../../public/images/perfume2.jpeg",
+      image: "/images/perfume2.jpeg",
       icon: <Gem className="text-blue-500" size={32} />
     },
     {
       name: "Hair Accessories",
       description: "Hair accessories collection",
-      image: "../../../public/images/hairclip1.jpeg",
+      image: "/images/hairclip1.jpeg",
       icon: <Heart className="text-red-500" size={32} />
     }
   ];
