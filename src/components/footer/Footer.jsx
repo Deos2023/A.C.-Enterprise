@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
+import logo from '../../../public/logo/logo.jpeg';
 import { Heart, ArrowUp, Mail, Phone, MapPin, MessageCircle, Facebook, Instagram, Twitter, Youtube } from 'lucide-react';
 // Removed import for logo from public folder. Use <img src="/logo/logo.jpeg" /> in JSX instead.
 import { Link, useNavigate } from 'react-router-dom';
