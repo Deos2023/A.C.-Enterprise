@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { ArrowRight, Star, Phone, MapPin, Mail, Sparkles, Gem, Heart } from 'lucide-react';
 import { li, nav } from 'framer-motion/client';
 import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Homepage = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -188,10 +189,13 @@ const Homepage = () => {
                     <h3 className="text-xl font-bold text-gray-800 ml-3">{category.name}</h3>
                   </div>
                   <p className="text-gray-600">{category.description}</p>
-                  <button className="mt-4 text-pink-500 font-medium flex items-center">
+                  <Link to={category.name === "Cosmetics" ? "/makeup" : category.name === "Perfumes" ? "/perfumes" : "/hair-accessories"}>
+                    <button className="mt-4 text-pink-500 font-medium flex items-center">
                     Explore
                     <ArrowRight className="ml-2" size={16} />
                   </button>
+                  </Link>
+                  
                 </div>
               </motion.div>
             ))}
