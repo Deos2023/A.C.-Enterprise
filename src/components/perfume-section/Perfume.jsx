@@ -33,7 +33,7 @@ const PerfumeSection = () => {
         name: 'Sunset Kiss',
         price: 45.99,
         rating: 4.6,
-        image: '/images/perfume3.jpeg',
+        image: '/images/women-perfume.avif',
         description: 'Warm citrus notes with a touch of honey and musk',
         size: '50ml'
       },
@@ -42,7 +42,7 @@ const PerfumeSection = () => {
         name: 'Velvet Petals',
         price: 65.99,
         rating: 4.7,
-        image: 'https://placehold.co/300x400/FADADD/000000?text=Women+Perfume+4',
+        image: '/images/velvet-perfume.webp',
         description: 'Luxurious blend of peony, orchid, and white musk',
         size: '100ml'
       },
@@ -77,10 +77,10 @@ const PerfumeSection = () => {
       },
       {
         id: 8,
-        name: 'Urban Legend',
+        name: 'Wild Stone',
         price: 69.99,
         rating: 4.8,
-        image: 'https://placehold.co/300x400/2F4F4F/FFFFFF?text=Men+Perfume+4',
+        image: '/images/men-perfume.jpg',
         description: 'Bold combination of spice, amber, and vetiver',
         size: '100ml'
       },

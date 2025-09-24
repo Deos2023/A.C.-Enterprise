@@ -35,7 +35,7 @@ const HairAccessoriesSection = () => {
         name: 'Bohemian Headband',
         price: 18.99,
         rating: 4.6,
-        image: 'https://placehold.co/300x400/F5F5DC/000000?text=Bohemian+Headband',
+        image: '/images/headband.webp',
         description: 'Colorful boho-style fabric headband',
         colors: ['Multicolor'],
         material: 'Cotton'
@@ -45,7 +45,7 @@ const HairAccessoriesSection = () => {
         name: 'Velvet Hair Band',
         price: 15.99,
         rating: 4.7,
-        image: 'https://placehold.co/300x400/800020/FFFFFF?text=Velvet+Hair+Band',
+        image: '/images/headband2.webp',
         description: 'Luxurious velvet hair band for special occasions',
         colors: ['Burgundy', 'Navy', 'Black'],
         material: 'Velvet'
@@ -77,7 +77,7 @@ const HairAccessoriesSection = () => {
         name: 'Pearl Barrette Set',
         price: 16.99,
         rating: 4.8,
-        image: 'https://placehold.co/300x400/FFFFFF/000000?text=Pearl+Barrettes',
+        image: '/images/pearl.avif',
         description: 'Set of elegant pearl-adorned hair barrettes',
         colors: ['White', 'Gold'],
         material: 'Metal with pearls'
@@ -87,7 +87,7 @@ const HairAccessoriesSection = () => {
         name: 'Tortoise Shell Clips',
         price: 22.99,
         rating: 4.9,
-        image: 'https://placehold.co/300x400/8B4513/FFFFFF?text=Tortoise+Clips',
+        image: '/images/tortoise.avif',
         description: 'Premium tortoise shell design hair clips',
         colors: ['Tortoise'],
         material: 'Acetate'
