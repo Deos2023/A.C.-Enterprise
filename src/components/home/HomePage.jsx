@@ -288,7 +288,7 @@ const Homepage = () => {
                 <Mail className="text-pink-600" size={28} />
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-2">Email Us</h3>
-              <p className="text-gray-600">acenterprise44@gmail.com</p>
+              <p className="text-gray-600">accosmeticswb@gmail.com</p>
             </motion.div>
 
             <motion.div

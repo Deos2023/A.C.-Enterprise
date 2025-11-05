@@ -150,7 +150,7 @@ const ContactUs = () => {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-800 mb-1">Email Address</h3>
-                    <p className="text-gray-600">acenterprise44@gmail.com</p>
+                    <p className="text-gray-600">accosmeticswb@gmail.com</p>
                     <p className="text-sm text-gray-500">We'll respond within 24 hours</p>
                   </div>
                 </motion.div>
