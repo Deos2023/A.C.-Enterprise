@@ -367,13 +367,13 @@ const ContactUs = () => {
               allowFullScreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="A.C. Enterprise Location"
+              title="A.C. Cosmetics Location"
               className="absolute inset-0"
             ></iframe>
             
             {/* Map Overlay Info */}
             <div className="absolute bottom-4 left-4 bg-white rounded-lg shadow-lg p-4 max-w-xs">
-              <h3 className="font-semibold text-gray-800 mb-1">A.C. Enterprise</h3>
+              <h3 className="font-semibold text-gray-800 mb-1">A.C. Cosmetics</h3>
               <p className="text-sm text-gray-600">
                 52 Weston Street, 4th Floor<br />
                 Room No- 415, Kolkata - 700012

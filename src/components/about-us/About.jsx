@@ -66,7 +66,7 @@ const AboutUs = () => {
         {
             month: "May",
             title: "Establishment",
-            description: "A.C. Enterprise was founded with a vision to provide quality beauty products."
+            description: "A.C. Cosmetics was founded with a vision to provide quality beauty products."
         },
         {
             month: "July",
@@ -99,7 +99,7 @@ const AboutUs = () => {
                         transition={{ duration: 0.8 }}
                         className="text-center mb-16"
                     >
-                        <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">About A.C. Enterprise</h1>
+                        <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">About A.C. Cosmetics</h1>
                         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
                             Your trusted partner for premium cosmetics and exquisite jewelry since 2025
                         </p>
@@ -115,7 +115,7 @@ const AboutUs = () => {
                             <div className="bg-white rounded-2xl shadow-xl p-6 border border-pink-100">
                                 <h2 className="text-2xl font-bold text-gray-800 mb-4">Our Story</h2>
                                 <p className="text-gray-600 mb-4">
-                                    Established on May 8, 2025, A.C. Enterprise began with a simple vision: to provide high-quality
+                                    Established on May 8, 2025, A.C. Cosmetics began with a simple vision: to provide high-quality
                                     cosmetics and emotion jewelry to both wholesale and retail customers. What started as a small
                                     venture has grown into a trusted name in the beauty industry.
                                 </p>
@@ -169,7 +169,7 @@ const AboutUs = () => {
                     >
                         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">Our Values</h2>
                         <p className="text-gray-600 max-w-3xl mx-auto">
-                            The principles that guide everything we do at A.C. Enterprise
+                            The principles that guide everything we do at A.C. Cosmetics
                         </p>
                     </motion.div>
 

@@ -67,11 +67,11 @@ const Footer = () => {
               <div className="w-12 h-12 bg-gradient-to-br from-pink-500 to-rose-600 rounded-xl flex items-center justify-center shadow-lg mr-4 overflow-hidden">
                 <img
                   src={logo}
-                  alt="A.C. Enterprise Logo"
+                  alt="A.C. Cosmetics Logo"
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h3 className="text-2xl font-bold">A.C. ENTERPRISE</h3>
+              <h3 className="text-2xl font-bold">A.C. Cosmetics</h3>
             </div>
             <p className="text-gray-400 mb-6 max-w-md">
               Your trusted partner for premium cosmetics and exquisite jewelry since 2025.
@@ -205,7 +205,7 @@ const Footer = () => {
           className="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-gray-800"
         >
           <p className="text-gray-500 text-sm mb-4 md:mb-0">
-            © {new Date().getFullYear()} A.C. Enterprise. All rights reserved.
+            © {new Date().getFullYear()} A.C. Cosmetics. All rights reserved.
           </p>
           <div className="flex items-center">
             <p className="text-gray-500 text-sm mr-4">

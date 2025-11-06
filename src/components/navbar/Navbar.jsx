@@ -35,14 +35,14 @@ const Navbar = () => {
                         <div className="w-12 h-12 bg-gradient-to-br from-pink-500 to-rose-600 rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-pink-400/40 transition-all duration-500 rotate-0 group-hover:rotate-12 overflow-hidden">
                             <img
                                 src={logo}
-                                alt="A.C. Enterprise Logo"
+                                alt="A.C. Cosmetics Logo"
                                 className="w-full h-full object-cover"
                             />
                         </div>
                         <div className="absolute -top-1 -right-1 w-4 h-4 bg-amber-400 rounded-full animate-pulse"></div>
                     </div>
                     <div className="flex flex-col">
-                        <h1 className="text-xl font-bold text-gray-800 tracking-wide uppercase">A.C. ENTERPRISE</h1>
+                        <h1 className="text-xl font-bold text-gray-800 tracking-wide uppercase">A.C. Cosmetics</h1>
                         <p className="text-xs text-rose-600 font-medium">Premium Beauty & Fragrances</p>
                     </div>
                 </Link>

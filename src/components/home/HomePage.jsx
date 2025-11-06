@@ -157,9 +157,9 @@ const Homepage = () => {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Welcome to A.C. Enterprise</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Welcome to A.C. Cosmetics</h2>
             <p className="text-gray-600 max-w-3xl mx-auto">
-              Established on May 8, 2025, A.C. Enterprise has been providing premium cosmetics and emotion jewelry
+              Established on May 8, 2025, A.C. Cosmetics has been providing premium cosmetics and emotion jewelry
               to wholesale and retail customers. Our commitment to quality and customer satisfaction has made us
               a trusted name in the industry.
             </p>
