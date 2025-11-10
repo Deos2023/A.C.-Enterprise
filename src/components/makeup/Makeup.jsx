@@ -36,26 +36,26 @@ const MakeupPage = () => {
   // Sample product data
   const products = {
     nailpolish: [
-      { id: 1, name: 'Matte Red Nail Polish', price: 12.99, rating: 4.8, image: '/images/nailpolish.jpeg' },
-      { id: 2, name: 'Nude Nail Polish', price: 24.99, rating: 4.5, image: '/images/nailpolish2.jpg' },
-      { id: 3, name: 'Liquid Nail Polish - Berry', price: 15.99, rating: 4.9, image: '/images/nailpolish3.jpg' },
-      { id: 4, name: 'Nail Polish Gift Set', price: 34.99, rating: 4.7, image: '/images/nailpolish4.jpg' },
+      { id: 1, name: 'Matte Red Nail Polish', price: 200, rating: 4.8, image: '/images/nailpolish.jpeg' },
+      { id: 2, name: 'Nude Nail Polish', price: 240, rating: 4.5, image: '/images/nailpolish2.jpg' },
+      { id: 3, name: 'Liquid Nail Polish - Berry', price: 220, rating: 4.9, image: '/images/nailpolish3.jpg' },
+      { id: 4, name: 'Nail Polish Gift Set', price: 400, rating: 4.7, image: '/images/nailpolish4.jpg' },
     ],
     eyeshadow: [
-      { id: 5, name: 'Neutral Palette', price: 29.99, rating: 4.6, image: '/images/makeup1.jpeg' },
-      { id: 6, name: 'Sparkle Eyeshadow', price: 14.99, rating: 4.3, image: '/images/makeup2.jpeg' },
-      { id: 7, name: 'Professional Palette', price: 45.99, rating: 4.9, image: '/images/makeup3.jpeg' },
-      { id: 8, name: 'Matte Eyeshadow Set', price: 22.99, rating: 4.4, image: '/images/makeup4.jpeg' },
+      { id: 5, name: 'Neutral Palette', price: 500, rating: 4.6, image: '/images/makeup1.jpeg' },
+      { id: 6, name: 'Sparkle Eyeshadow', price: 450, rating: 4.3, image: '/images/makeup2.jpeg' },
+      { id: 7, name: 'Professional Palette', price: 400, rating: 4.9, image: '/images/makeup3.jpeg' },
+      { id: 8, name: 'Matte Eyeshadow Set', price: 369, rating: 4.4, image: '/images/cosmetics.jpeg' },
     ],
     foundation: [
-      { id: 9, name: 'Liquid Foundation', price: 24.99, rating: 4.7, image: '/images/foundation.jpg' },
-      { id: 10, name: 'Matte Foundation', price: 27.99, rating: 4.5, image: '/images/foundation2.jpg' },
+      { id: 9, name: 'Liquid Foundation', price: 249, rating: 4.7, image: '/images/foundation.jpg' },
+      { id: 10, name: 'Matte Foundation', price: 279, rating: 4.5, image: '/images/foundation2.jpg' },
     ],
     facewash: [
-      { id: 13, name: 'Premium Face Wash', price: 49.99, rating: 4.9, image: '/images/facewash.jpeg' },
-      { id: 14, name: 'Gentle Cleanser', price: 15.99, rating: 4.4, image: 'https://placehold.co/300x300/F5FFFA/000000?text=Gentle+Cleanser' },
-      { id: 15, name: 'Exfoliating Face Wash', price: 29.99, rating: 4.6, image: 'https://placehold.co/300x300/F0FFFF/000000?text=Exfoliating+Face+Wash' },
-      { id: 16, name: 'Hydrating Face Wash', price: 22.99, rating: 4.3, image: 'https://placehold.co/300x300/F0F8FF/000000?text=Hydrating+Face+Wash' },
+      { id: 13, name: 'Premium Face Wash', price: 499, rating: 4.9, image: '/images/cetaphil2.jpeg' },
+      { id: 14, name: 'Gentle Cleanser', price: 159, rating: 4.4, image: '/public/images/vlcc.jpeg' },
+      { id: 15, name: 'Exfoliating Face Wash', price: 299, rating: 4.6, image: '/public/images/vlcc2.jpeg' },
+      { id: 16, name: 'Hydrating Face Wash', price: 229, rating: 4.3, image: '/public/images/cetaphil.jpeg' },
     ],
 
   };

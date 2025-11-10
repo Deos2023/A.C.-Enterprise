@@ -50,7 +50,7 @@ const Homepage = () => {
     {
       name: "Perfumes",
       description: "Luxury fragrances for men and women",
-      image: "/images/perfume2.jpeg",
+      image: "/images/women-perfume.avif",
       icon: <Gem className="text-blue-500" size={32} />
     },
     {

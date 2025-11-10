@@ -13,7 +13,7 @@ const HairAccessoriesSection = () => {
       {
         id: 1,
         name: 'Silk Scrunchies Set',
-        price: 12.99,
+        price: 129,
         rating: 4.8,
         image: '/images/hairband.jpeg',
         description: 'Luxury silk scrunchies in assorted colors',
@@ -23,7 +23,7 @@ const HairAccessoriesSection = () => {
       {
         id: 2,
         name: 'Pearl Hair Band',
-        price: 24.99,
+        price: 249,
         rating: 4.9,
         image: '/images/hairband2.jpeg',
         description: 'Elegant pearl-embellished hair band',
@@ -33,7 +33,7 @@ const HairAccessoriesSection = () => {
       {
         id: 3,
         name: 'Bohemian Headband',
-        price: 18.99,
+        price: 189,
         rating: 4.6,
         image: '/images/headband.webp',
         description: 'Colorful boho-style fabric headband',
@@ -43,7 +43,7 @@ const HairAccessoriesSection = () => {
       {
         id: 4,
         name: 'Velvet Hair Band',
-        price: 15.99,
+        price: 159,
         rating: 4.7,
         image: '/images/headband2.webp',
         description: 'Luxurious velvet hair band for special occasions',
@@ -55,7 +55,7 @@ const HairAccessoriesSection = () => {
       {
         id: 5,
         name: 'Gold Hair Claw Clip',
-        price: 14.99,
+        price: 149,
         rating: 4.7,
         image: '/images/hairclip1.jpeg',
         description: 'Elegant gold-finished large claw clip',
@@ -65,7 +65,7 @@ const HairAccessoriesSection = () => {
       {
         id: 6,
         name: 'Butterfly Hair Clips',
-        price: 9.99,
+        price: 99,
         rating: 4.5,
         image: '/images/hairclip2.jpeg',
         description: 'Cute butterfly-shaped hair clips set',
@@ -75,7 +75,7 @@ const HairAccessoriesSection = () => {
       {
         id: 7,
         name: 'Pearl Barrette Set',
-        price: 16.99,
+        price: 159,
         rating: 4.8,
         image: '/images/pearl.avif',
         description: 'Set of elegant pearl-adorned hair barrettes',
@@ -85,11 +85,21 @@ const HairAccessoriesSection = () => {
       {
         id: 8,
         name: 'Tortoise Shell Clips',
-        price: 22.99,
+        price: 229,
         rating: 4.9,
         image: '/images/tortoise.avif',
         description: 'Premium tortoise shell design hair clips',
         colors: ['Tortoise'],
+        material: 'Acetate'
+      },
+      {
+        id: 8,
+        name: 'Hair oil',
+        price: 329,
+        rating: 4.9,
+        image: '/images/hairoil.jpeg',
+        description: 'Premium hair oils',
+        colors: ['black'],
         material: 'Acetate'
       },
     ]
@@ -282,7 +292,7 @@ const HairAccessoriesSection = () => {
                   </div>
 
                   <div className="flex justify-between items-center">
-                    <span className="text-lg font-bold text-purple-600">${item.price}</span>
+                    <span className="text-lg font-bold text-purple-600">{item.price}</span>
                     <button className="bg-purple-500 text-white p-2 rounded-full hover:bg-purple-600 transition-colors">
                       <ShoppingCart size={18} />
                     </button>

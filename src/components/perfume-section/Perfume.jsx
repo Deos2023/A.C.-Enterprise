@@ -13,7 +13,7 @@ const PerfumeSection = () => {
       {
         id: 1,
         name: 'Floral Elegance',
-        price: 49.99,
+        price: 499,
         rating: 4.8,
         image: '/images/perfume1.jpeg',
         description: 'A delicate blend of jasmine and rose with hints of vanilla',
@@ -22,7 +22,7 @@ const PerfumeSection = () => {
       {
         id: 2,
         name: 'Midnight Bloom',
-        price: 59.99,
+        price: 599,
         rating: 4.9,
         image: '/images/perfume2.jpeg',
         description: 'Mysterious blend of night-blooming flowers and amber',
@@ -31,7 +31,7 @@ const PerfumeSection = () => {
       {
         id: 3,
         name: 'Sunset Kiss',
-        price: 45.99,
+        price: 459,
         rating: 4.6,
         image: '/images/women-perfume.avif',
         description: 'Warm citrus notes with a touch of honey and musk',
@@ -40,7 +40,7 @@ const PerfumeSection = () => {
       {
         id: 4,
         name: 'Velvet Petals',
-        price: 65.99,
+        price: 659,
         rating: 4.7,
         image: '/images/velvet-perfume.webp',
         description: 'Luxurious blend of peony, orchid, and white musk',
@@ -51,25 +51,25 @@ const PerfumeSection = () => {
       {
         id: 5,
         name: 'Wooden Mystique',
-        price: 54.99,
+        price: 549,
         rating: 4.7,
-        image: '/images/perfume1.jpeg',
+        image: '/images/perfume4.jpeg',
         description: 'Rich blend of sandalwood, cedar, and bergamot',
         size: '75ml'
       },
       {
         id: 6,
         name: 'Noir Essence',
-        price: 62.99,
+        price: 629,
         rating: 4.9,
-        image: '/images/perfume1.jpeg',
+        image: '/images/perfume.jpeg',
         description: 'Dark and mysterious with notes of leather and tobacco',
         size: '100ml'
       },
       {
         id: 7,
         name: 'Fresh Aqua',
-        price: 48.99,
+        price: 489,
         rating: 4.5,
         image: '/images/perfume3.jpg',
         description: 'Crisp aquatic notes with citrus and marine accents',
@@ -78,7 +78,7 @@ const PerfumeSection = () => {
       {
         id: 8,
         name: 'Wild Stone',
-        price: 69.99,
+        price: 399,
         rating: 4.8,
         image: '/images/men-perfume.jpg',
         description: 'Bold combination of spice, amber, and vetiver',
@@ -263,7 +263,7 @@ const PerfumeSection = () => {
                   </div>
 
                   <div className="flex justify-between items-center">
-                    <span className="text-lg font-bold text-blue-600">${perfume.price}</span>
+                    <span className="text-lg font-bold text-blue-600">{perfume.price}</span>
                     <button className="bg-blue-500 text-white p-2 rounded-full hover:bg-blue-600 transition-colors">
                       <ShoppingCart size={18} />
                     </button>
