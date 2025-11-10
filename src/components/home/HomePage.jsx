@@ -56,7 +56,7 @@ const Homepage = () => {
     {
       name: "Hair Accessories",
       description: "Hair accessories collection",
-      image: "/images/hairclip1.jpeg",
+      image: "/images/product.jpeg",
       icon: <Heart className="text-red-500" size={32} />
     }
   ];

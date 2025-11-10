@@ -42,8 +42,8 @@ const MakeupPage = () => {
       { id: 4, name: 'Nail Polish Gift Set', price: 400, rating: 4.7, image: '/images/nailpolish4.jpg' },
     ],
     eyeshadow: [
-      { id: 5, name: 'Neutral Palette', price: 500, rating: 4.6, image: '/images/makeup1.jpeg' },
-      { id: 6, name: 'Sparkle Eyeshadow', price: 450, rating: 4.3, image: '/images/makeup2.jpeg' },
+      { id: 5, name: 'Neutral Palette', price: 500, rating: 4.6, image: '/images/product.jpeg' },
+      { id: 6, name: 'Sparkle Eyeshadow', price: 450, rating: 4.3, image: '/images/product2.jpeg' },
       { id: 7, name: 'Professional Palette', price: 400, rating: 4.9, image: '/images/makeup3.jpeg' },
       { id: 8, name: 'Matte Eyeshadow Set', price: 369, rating: 4.4, image: '/images/cosmetics.jpeg' },
     ],
