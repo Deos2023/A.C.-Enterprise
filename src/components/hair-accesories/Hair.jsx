@@ -102,6 +102,16 @@ const HairAccessoriesSection = () => {
         colors: ['black'],
         material: 'Acetate'
       },
+       {
+        id: 9,
+        name: 'Hair oil',
+        price: 329,
+        rating: 4.9,
+        image: '/images/hairoil-new.jpeg',
+        description: 'Premium hair oils',
+        colors: ['black'],
+        material: 'Acetate'
+      },
     ]
   };
 

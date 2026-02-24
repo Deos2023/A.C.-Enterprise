@@ -50,14 +50,18 @@ const MakeupPage = () => {
     foundation: [
       { id: 9, name: 'Liquid Foundation', price: 249, rating: 4.7, image: '/images/foundation.jpg' },
       { id: 10, name: 'Matte Foundation', price: 279, rating: 4.5, image: '/images/foundation2.jpg' },
+      { id: 10, name: 'Cosmetics', price: 279, rating: 4.5, image: '/images/cosmetics-new.jpeg' },
+      { id: 10, name: 'Cosmetics', price: 279, rating: 4.5, image: '/images/cosmetics-new2.jpeg' },
+      { id: 10, name: 'Cosmetics', price: 279, rating: 4.5, image: '/images/cosmetics-new3.jpeg' },
     ],
     facewash: [
       { id: 13, name: 'Premium Face Wash', price: 499, rating: 4.9, image: '/images/cetaphil2.jpeg' },
-      { id: 14, name: 'Gentle Cleanser', price: 159, rating: 4.4, image: '/public/images/vlcc.jpeg' },
-      { id: 15, name: 'Exfoliating Face Wash', price: 299, rating: 4.6, image: '/public/images/vlcc2.jpeg' },
-      { id: 16, name: 'Hydrating Face Wash', price: 229, rating: 4.3, image: '/public/images/cetaphil.jpeg' },
+      { id: 14, name: 'Gentle Cleanser', price: 159, rating: 4.4, image: '/images/vlcc.jpeg' },
+      { id: 15, name: 'Exfoliating Face Wash', price: 299, rating: 4.6, image: '/images/vlcc2.jpeg' },
+      { id: 16, name: 'Hydrating Face Wash', price: 229, rating: 4.3, image: '/images/cetaphil.jpeg' },
+      { id: 17, name: 'Hydrating Face Wash', price: 229, rating: 4.3, image: '/images/facewash-new.jpeg' },
+      { id: 18, name: 'Hydrating Face Wash', price: 229, rating: 4.3, image: '/images/facewash-new2.jpeg' },
     ],
-
   };
 
   // Filter products based on active category

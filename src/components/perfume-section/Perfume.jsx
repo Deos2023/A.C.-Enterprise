@@ -46,6 +46,15 @@ const PerfumeSection = () => {
         description: 'Luxurious blend of peony, orchid, and white musk',
         size: '100ml'
       },
+      {
+        id: 4,
+        name: 'Perfume Gel',
+        price: 5,
+        rating: 4.7,
+        image: '/images/perfume-gel.jpeg',
+        description: 'Luxurious blend of peony, orchid, and white musk',
+        size: '100ml'
+      },
     ],
     men: [
       {
@@ -84,6 +93,16 @@ const PerfumeSection = () => {
         description: 'Bold combination of spice, amber, and vetiver',
         size: '100ml'
       },
+      {
+        id: 9,
+        name: 'Fogg',
+        price: 399,
+        rating: 4.8,
+        image: '/images/fogg.jpeg',
+        description: 'Bold combination of spice, amber, and vetiver',
+        size: '100ml'
+      },
+
     ]
   };
 
